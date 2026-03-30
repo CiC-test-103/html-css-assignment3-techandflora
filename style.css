@@ -47,6 +47,201 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /** Your CSS Below **/
+body{
+  background-color: var(--clr-stone100);
+  font-family: var(--fs-base);
+  padding: 20px;
+  margin: 20px;
+  
+
+}
+
+#container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: var(--clr-rose50);
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  border-radius: 12px;
+}
+
+.headline {
+  font-family: 'Young Serif', Georgia, serif;
+  font-size: 2.5rem;
+  color: var(--clr-stone900);
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-align: left;
+  
+}
+
+header p{
+  text-align: left;
+  max-width: 600px;
+  color: var(--clr-stone900);
+}
+
+.prep {
+  background-color: var(--clr-rose50);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 20px 0;
+  
+}
+.Ingredients h2,
+.Instructions h2,
+.Nutrition h2 {
+  font-family: var(--fs-accent);
+}
+
+
+
+.prep h3 {
+  color: var(--clr-rose800);
+  font-family: var(--fs-base);
+  font-weight: var(--fw-black);
+  margin-bottom: 10px;
+  
+}
+
+.prep ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.prep li {
+  margin: 4px 0;
+  color: var(--clr-stone900);
+  font-family: var(--fs-base);
+}
+
+ul li::marker {
+      color: #854632;
+    }
+
+
+
+.Ingredients{
+  padding: 20px;
+  margin: 0px;
+
+}
+
+.Ingredients h2 {
+  color: var(--clr-brown800);
+  font-family: var(--fs-accent);
+  font-size: var(--font-sub-header);
+  margin-bottom: 10px;
+}
+
+.Ingredients ul {
+  padding: 5px;
+  margin: 10px;
+
+}
+
+.Ingredients ul li{
+color: var( --clr-stone600);
+margin: 6px 0;
+
+}
+
+hr{
+  color: var(--clr-stone900);
+}
+
+.Instructions{
+  color: var(--clr-stone900);
+  margin: 3px;
+
+}
+
+.Instructions h2{
+  color: var(--clr-brown800);
+  font-family: var(--fs-accent);
+  font-size: var(--font-sub-header);
+  margin-bottom: 10px;
+}
+
+.Instructions ol{ 
+  color: var(--clr-stone900);
+  padding: 20px;
+  margin: 10px;
+} 
+
+.Instructions ol li{
+  
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+
+ol li::marker{
+  color: #854632;
+}
+
+.Nutrition{
+   color: var(--clr-stone900);
+  margin: 3px;
+
+}
+
+.Nutrition h2{
+  color: var(--clr-brown800);
+  font-family: var(--fs-accent);
+  font-size: var(--font-sub-header);
+  margin-bottom: 10px;
+
+}
+
+.Nutrition p{
+   color: #5f564d;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+
+}
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table tr {
+  border-bottom: 1px solid var(--clr-stone150);
+}
+
+
+    table tr:last-child {
+      border-bottom: none;
+    }
+
+    table td {
+  color: var(--clr-stone600);
+}
+
+
+    table td:first-child {
+      padding-left: 32px;
+    }
+
+    table td:last-child {
+
+     color: var(--clr-brown800);
+     font-weight: var(--fw-bold);
+}
+
+
 
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
